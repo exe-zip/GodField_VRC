@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e041f69946717e44a32fe2f036b9865, type: 3}
   m_Name: TestCard 5
   m_EditorClassIdentifier: 
-  name: "\u30C6\u30B9\u30C8\u30AB\u30FC\u30C9"
+  name: "\u30C6\u30B9\u30C8\u30AB\u30FC\u30C95"
   description: "\u30C6\u30B9\u30C8test12345\\"
   type: 0
   element: 0
-  tex: {fileID: 2800000, guid: 8a393a84618d9ee4e9be7578c08270e9, type: 3}
+  tex: {fileID: 2800000, guid: 615b5b9b198fc8b4386f685ad85ea956, type: 3}
   price: 99
   damage: 0
   heal_hp: 0
