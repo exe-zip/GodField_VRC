@@ -27,10 +27,15 @@ public class DeckManager : MonoBehaviour
             }
         }
 
-        for(int i = 0; i < deck.Length; i++)
+        for(int i = 0; i < 10; i++)
         {
-            Debug.Log(deck[i]);
+            Debug.Log(Draw().name);
         }
+    }
+
+    public CardDataBase Draw()
+    {
+        return data_card[deck[Random.Range(0, deck_len)]];
     }
 
     void Update()
